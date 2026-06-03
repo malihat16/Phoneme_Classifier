@@ -7,7 +7,7 @@ import {
   BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Cell
 } from "recharts";
 
-// ─── API config ──────────────────────────────────────────────────────────────
+// ─── API config 
 const API = process.env.REACT_APP_API_URL || "http://localhost:8000";
 
 const transcribeFile = async (audioFile) => {
