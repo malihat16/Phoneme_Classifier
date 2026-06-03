@@ -8,7 +8,7 @@ import {
 } from "recharts";
 
 // ─── API config ──────────────────────────────────────────────────────────────
-const API = "http://localhost:8000";
+const API = process.env.REACT_APP_API_URL || "http://localhost:8000";
 
 const transcribeFile = async (audioFile) => {
   const form = new FormData();
